@@ -6,12 +6,9 @@ import {
     experience,
     footer,
   } from "./data.js";
-
-import { URLs } from './user-data/urls.js';
   
   const { longhorn, petMypet, everClean, pricePrediction } =
     projects;
-  const { medium, gitConnected } = URLs;
   
   /**
    * Fetches blogs from Medium profile.
@@ -468,18 +465,15 @@ import { URLs } from './user-data/urls.js';
       return (years == 1) ? `${years} year ago` : `${years} years ago`;
     }
   }
-  
+
   populateBio(bio, "bio");
   
   populateSkills(skills, "skills");
   
-  fetchBlogsFromMedium(medium);
-  fetchGitConnectedData(gitConnected);
-  
-  populateProjects(webProjects, "web-projects");
-  populateProjects(softwareProjects, "software-projects");
-  populateProjects(androidProjects, "android-projects");
-  populateProjects(freelanceProjects, "freelance-projects");
+  populateProjects(longhorn, "longhorn");
+  populateProjects(petMypet, "petmypet");
+  populateProjects(everClean, "ever-clean");
+  populateProjects(pricePrediction, "price-prediction");
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
