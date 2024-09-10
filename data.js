@@ -92,44 +92,6 @@ export const projects = {
   ],
 };
 
-export const experience = [
-  {
-    title: "BIMFM Technology Co., Ltd.",
-    duration: "August 2023",
-    subtitle: "System Software Developer Intern",
-    details: ["Engineered C# backend APIs for the design diagrams and equipment data functionality of the Minsheng Sewerage Flow Project",
-      "Initiated an internal payroll and expense system for 50% efficiency enhancement",
-      "Designed database schema and UI/UX interface using Microsoft SQL Server and Figma to ensure seamless integration with the current management system",
-    ],
-    tags: ["C#", "Microsoft SQL Server", "Figma"],
-    icon: "tools ",
-  },
-  {
-    title: "AmazingTalker Ltd.",
-    duration: "July 2022",
-    subtitle: "Accounting Intern",
-    details: [
-      "Improved existing tools for preparation of financial reports with JavaScript",
-      "Collaborated in a team project and designed a new tool for CFO to monitor cash outflows",
-    ],
-    tags: [
-      "JavaScript",
-      "Google Apps Script",
-    ],
-    icon: "group",
-  },
-  {
-    title: "Good Finance Securities Co., Ltd.",
-    duration: "June 2021",
-    subtitle: "Accounting Intern",
-    details: [
-      "Participated in the preparation of journal entries and financial reports",
-      "Assisted with month-end financial report and reconciled quarter-end financial statements",
-    ],
-    icon: "glasses",
-  },
-];
-
 export const education = [
   {
     title: "MS, Computer Science",
@@ -164,7 +126,45 @@ export const education = [
       "Linear Algebra",
       "Object-Oriented Programming and Data Structures",
     ],
-    icon: "graduation-cap",
+    icon: "area-chart",
+  },
+];
+
+export const experience = [
+  {
+    title: "BIMFM Technology Co., Ltd.",
+    duration: "August 2023",
+    subtitle: "System Software Developer Intern",
+    details: ["Engineered C# backend APIs for the design diagrams and equipment data functionality of the Minsheng Sewerage Flow Project",
+      "Initiated an internal payroll and expense system for 50% efficiency enhancement",
+      "Designed database schema and UI/UX interface using Microsoft SQL Server and Figma to ensure seamless integration with the current management system",
+    ],
+    tags: ["C#", "Microsoft SQL Server", "Figma"],
+    icon: "building",
+  },
+  {
+    title: "AmazingTalker Ltd.",
+    duration: "July 2022",
+    subtitle: "Accounting Intern",
+    details: [
+      "Improved existing tools for preparation of financial reports with JavaScript",
+      "Collaborated in a team project and designed a new tool for CFO to monitor cash outflows",
+    ],
+    tags: [
+      "JavaScript",
+      "Google Apps Script",
+    ],
+    icon: "group",
+  },
+  {
+    title: "Good Finance Securities Co., Ltd.",
+    duration: "June 2021",
+    subtitle: "Accounting Intern",
+    details: [
+      "Participated in the preparation of journal entries and financial reports",
+      "Assisted with month-end financial report and reconciled quarter-end financial statements",
+    ],
+    icon: "pencil-square-o",
   },
 ];
 
@@ -190,6 +190,6 @@ export const footer = [
     label: "copyright-text",
     data: [
       "Made with &hearts; by Vinay Somawat.",
-    ],
+],
   },
 ];
