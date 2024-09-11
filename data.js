@@ -175,7 +175,7 @@ export const footer = [
     data: [
       {
         text: "Email",
-        link: "jennie96179@gmail.com",
+        link: "mailto:jennie96179@gmail.com",
       },
       {
         text: "Linkedin",
