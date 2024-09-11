@@ -3108,7 +3108,7 @@ fieldset[disabled] .btn-info.active {
 
 .btn-warning {
 	color: #fff;
-	background-color: #6e7da2;
+	background-color: #DDDEFC;
 	border-color: #eea236;
 }
 .btn-warning:focus,
@@ -3165,11 +3165,11 @@ fieldset[disabled] .btn-warning:focus,
 fieldset[disabled] .btn-warning.focus,
 fieldset[disabled] .btn-warning:active,
 fieldset[disabled] .btn-warning.active {
-	background-color: #6e7da2;
+	background-color: #DDDEFC;
 	border-color: #eea236;
 }
 .btn-warning .badge {
-	color: #6e7da2;
+	color: #DDDEFC;
 	background-color: #fff;
 }
 
@@ -4819,7 +4819,7 @@ a.label:focus {
 }
 
 .label-warning {
-	background-color: #6e7da2;
+	background-color: #DDDEFC;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
@@ -4844,7 +4844,7 @@ a.label:focus {
 	vertical-align: middle;
 	white-space: nowrap;
 	text-align: center;
-	background-color: #db996c;
+	background-color: #470804;
 	border-radius: 10px;
 }
 .badge:empty {
@@ -5193,7 +5193,7 @@ a.thumbnail.active {
 }
 
 .progress-bar-warning {
-	background-color: #6e7da2;
+	background-color: #DDDEFC;
 }
 .progress-striped .progress-bar-warning {
 	background-image: -webkit-linear-gradient(
