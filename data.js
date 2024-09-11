@@ -164,13 +164,14 @@ export const experience = [
       "Participated in the preparation of journal entries and financial reports",
       "Assisted with month-end financial report and reconciled quarter-end financial statements",
     ],
+    tags: [],
     icon: "pencil-square-o",
   },
 ];
 
 export const footer = [
   {
-    label: "Thanks for visiting!",
+    label: "Links",
     data: [
       {
         text: "Email",
@@ -186,10 +187,10 @@ export const footer = [
       },
     ],
   },
-  {
-    label: "copyright-text",
-    data: [
-      "Made with &hearts; by Vinay Somawat.",
-],
-  },
+//   {
+//     label: "copyright-text",
+//     data: [
+//       "Made with &hearts; by Vinay Somawat.",
+// ],
+//   },
 ];
