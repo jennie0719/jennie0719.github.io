@@ -99,8 +99,12 @@ export const education = [
     subtitle: "Northeastern University, Seattle",
     details: [],
     tags: [
+      "Computer Systems",
       "Programming Design Paradigms",
       "Algorithms",
+      "Foundations of Artificial Intelligence",
+      "Building Scalable Distributed Systems",
+      "Large-Scale Parallel Data Processing",
     ],
     icon: "graduation-cap",
   },
@@ -132,9 +136,20 @@ export const education = [
 
 export const experience = [
   {
+    title: "Google",
+    duration: "July 2025",
+    subtitle: "Software Engineer Intern",
+    details: ["Implemented a dashboard with SQL for Pixel 10 key feature resulting in 70% dashboard build time reduction for manager",
+      "Developed a Kotlin mobile application using internal ML models to address provide proof of audio translating concept",
+      "Demonstrated preprocessed audio translation effectiveness through demo application achieving near 100% translation accuracy improvement",
+    ],
+    tags: ["SQL", "Kotlin"],
+    icon: "building",
+  },
+  {
     title: "BIMFM Technology Co., Ltd.",
     duration: "August 2023",
-    subtitle: "System Software Developer Intern",
+    subtitle: "Software Developer Intern",
     details: ["Engineered C# backend APIs for the design diagrams and equipment data functionality of the Minsheng Sewerage Flow Project",
       "Initiated an internal payroll and expense system for 50% efficiency enhancement",
       "Designed database schema and UI/UX interface using Microsoft SQL Server and Figma to ensure seamless integration with the current management system",
